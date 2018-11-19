@@ -16,6 +16,19 @@ table {
   border-spacing: 2px;
   border-color: gray;
 }
+
 h1{
   color:orange;
+}
+
+ul{
+  list-style-type: none;
+  display: inline;
+}
+li a{
+color:blue;
+}
+li a:hover{
+color:red;
+
 }
