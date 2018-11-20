@@ -1,22 +1,57 @@
+body{
+  background-image: linear-gradient(lemonchiffon, lightsalmon);
+  text-align: center;
+}
 table {
+  border-color: black;
   border-collapse: collapse;
+  margin-left: auto; 
+  margin-right:auto; 
+  align-content: center;  
+  border-style: hidden;
 }
 
 table, th, td {
-  border: 1px solid black;
+  padding: 3px;
 }
 
+td{
+  border-left-style: block;
+  border-style: dotted;
+}
+
+
 h1{
-  color:orange;
+  text-align: center;
+  color: orange;
+}
+
+.videoH{
+  color: teal;
+  font-style: italic;
+}
+img {
+flo
 }
 
 ul{
+  text-align: center;
   list-style-type: none;
   display: inline;
 }
+
+ol{
+  text-align: center;
+  list-style-position: inside;
+}
+  
 li a{
 color:blue;
 }
 li a:hover{
 color:red;
+}
+ol{
+text-align: center;
+list-style-position: inside;
 }
