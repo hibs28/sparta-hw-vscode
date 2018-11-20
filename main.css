@@ -16,7 +16,6 @@ table, th, td {
 }
 
 td{
-  border-left-style: block;
   border-style: dotted;
 }
 
@@ -30,14 +29,24 @@ h1{
   color: teal;
   font-style: italic;
 }
-img {
-flo
-}
 
-ul{
-  text-align: center;
+
+.navlist{
   list-style-type: none;
   display: inline;
+  background-color: lavender;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+.navlist li{
+
+  float: left;
 }
 
 ol{
@@ -45,13 +54,14 @@ ol{
   list-style-position: inside;
 }
   
-li a{
+.navlist li a{
+  display: block;
 color:blue;
+padding: 14p 16px;
+text-decoration: none;
+text-align: center;
 }
-li a:hover{
+.navlist li a:hover{
 color:red;
 }
-ol{
-text-align: center;
-list-style-position: inside;
-}
+
